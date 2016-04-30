@@ -11,4 +11,3 @@
 -Dkaraf.instances=/data/instances
 -Djava.io.tmpdir=/data/tmp
 -Dkaraf.startLocalConsole=false
-

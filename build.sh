@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=3.0.0-m7
+VERSION=3.0.0-03
 
 FILE=nexus-$VERSION-unix.tar.gz
 
@@ -11,7 +11,7 @@ if [ ! -f cache/$FILE ]; then
     cd cache
     wget $URL
     tar -xf $FILE && rm $FILE
-    mv nexus* nexus
+    mv nexus-$VERSION nexus
     tar -cf $FILE nexus && rm -rf nexus
     cd ../ 
 fi
