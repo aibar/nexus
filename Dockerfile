@@ -14,4 +14,4 @@ VOLUME /data
 
 EXPOSE 8081
 
-ENTRYPOINT ["/nexus-3.0.0-03/bin/nexus", "start"]
+ENTRYPOINT ["/nexus-3.0.0-03/bin/nexus", "run"]
